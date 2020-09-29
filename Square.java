@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 public class Square{
-    
+    //will actually print a rectangle (quite fun :D)
     public static void main(String[] args){
-        System.out.println("Enter a square side length!: ");
+        System.out.print("Enter a square side length: ");
         Scanner scanner = new Scanner(System.in);
         int input = scanner.nextInt();
         scanner.close();
