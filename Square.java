@@ -1,3 +1,11 @@
+/*
+Square.java
+
+Cristobal Velasquez
+
+Prints a simple square using FOR loops
+*/
+
 import java.util.Scanner;
 
 public class Square{

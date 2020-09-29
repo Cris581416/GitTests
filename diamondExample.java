@@ -1,3 +1,11 @@
+/*
+diamondExample.java
+
+iNoobBoi
+
+Prints a diamond according to user specifications using FOR loops.
+*/
+
 import java.util.Scanner;
 
 public class diamondExample {
@@ -10,6 +18,11 @@ public class diamondExample {
         System.out.print("Enter the number of rows in your diamond: "); //user input
         Scanner s = new Scanner(System.in);
         n = s.nextInt();
+        
+        if (n < 0) {
+        	throw new IllegalArgumentException("Cannot make diamond of width " + n);
+        	} //if it is negative, break everything
+        
         space = n - 1; //there will be 1 less row that has spaces than total rows
        
         for (j = 1; j <= n; j++) {
